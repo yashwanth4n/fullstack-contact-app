@@ -1,17 +1,21 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Contact App</title>
+<title>Contact Book</title>
+<link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-<h2>Contact Form</h2>
+<div class="container">
+<h1>Contact Book</h1>
 
-<input id="name" placeholder="Enter name">
-<input id="phone" placeholder="Enter phone">
+<input type="text" id="name" placeholder="Enter Name">
+<input type="text" id="phone" placeholder="Enter Phone Number">
 
-<button onclick="sendData()">Submit</button>
+<button onclick="saveContact()">Save Contact</button>
+
+</div>
 
 <script src="script.js"></script>
 
